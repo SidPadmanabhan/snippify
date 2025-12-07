@@ -1,0 +1,10 @@
+# Claude project context (keep local only)
+claude.md
+CLAUDE.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
