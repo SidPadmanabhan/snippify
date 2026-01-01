@@ -16,7 +16,8 @@ public class SnippetService {
     public SnippetService(SnippetRepository snippetRepository) { 
         this.snippetRepository = snippetRepository;
     }
-
+    
+    //create new snippet
     public Snippet createSnippet(Snippet snippet) {
         // title can't be null
         if (snippet.getTitle() == null || snippet.getTitle().isEmpty()) {
